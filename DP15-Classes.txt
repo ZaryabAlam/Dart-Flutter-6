@@ -1,0 +1,14 @@
+// Dart Class
+void main(){
+  var car1= Car();
+  car1.name="City";
+  car1.display();
+}
+
+class Car{
+  var name="";
+
+dynamic display(){
+  print("Car name is ${name}");
+ }       }
+

@@ -1,0 +1,28 @@
+// Inheritance 
+void main(){
+  var obj1=Circle();
+  obj1.par();
+  obj1.chi();
+  
+  var obj2=Square();
+  obj2.par();
+  obj2.chi2();
+}
+
+class Shape{
+  dynamic par(){
+    print("Parent: Shape");
+  }
+}
+
+class Circle extends Shape{
+  dynamic chi(){
+    print("Child: Circle");
+  }
+}
+
+class Square extends Shape{
+  dynamic chi2(){
+   print("Child: Square");
+  }
+}

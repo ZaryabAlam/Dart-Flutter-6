@@ -1,0 +1,29 @@
+// Dynamic Function
+void main(){
+  func1();
+}
+dynamic func1(){
+  print("Hello World");   }
+
+
+//
+void main(){
+  func2();
+}
+dynamic func2(){
+  var num1=10;
+  var num2=20;
+  var sum=num1+num2;
+  print(sum);    }                                                                                        
+
+
+// Paramatric Function
+void main() {
+  test(79, 80, 92);
+}
+dynamic test(var eng, var urdu, var math){
+  var total=eng+urdu+math;
+  print(total);    }
+
+
+//  
